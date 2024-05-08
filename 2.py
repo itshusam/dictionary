@@ -31,7 +31,3 @@ def display_room_status(hotel_rooms):
     print("Room Status:")
     for room_number, room_info in hotel_rooms.items():
         print(f"Room {room_number}: {room_info['status']}, Customer: {room_info['customer']}")
-
-
-
-display_room_status(hotel_rooms)
